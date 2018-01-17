@@ -28,7 +28,7 @@ class AppContainer extends Component {
     render(){
         return  <View style={styles.container}>
             <Section text={this.props.text} start={this.props.start} />
-            <Button title='prueba' onPress={()=>{ alert(this.props.text) }} />
+            <Button title='otro ' onPress={()=>{ alert(this.props.text) }} />
         </View>
     }
 }
