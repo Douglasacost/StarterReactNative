@@ -6,7 +6,6 @@
 
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware, combineReducers, compose} from 'redux';
 
 
 import store from './src/store';
